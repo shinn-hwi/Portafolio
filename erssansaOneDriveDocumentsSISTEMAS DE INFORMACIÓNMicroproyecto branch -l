@@ -1,0 +1,29 @@
+[33mcommit e72f0df42d6ae164de2d63d537cb8063c3a41cdc[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Sandra Sánchez <sansanvirom@gmail.com>
+Date:   Sat Feb 4 14:00:14 2023 -0400
+
+    Quitado el navbar
+
+[33mcommit b9a46a41447624b23338dc134f04740bb939c89d[m
+Author: Sandra Sánchez <sansanvirom@gmail.com>
+Date:   Sat Feb 4 13:14:21 2023 -0400
+
+    Create main.js
+
+[33mcommit 26b490427c3c31eb5b84b9918e405054ad0779ca[m
+Author: Sandra Sánchez <sansanvirom@gmail.com>
+Date:   Sat Feb 4 13:07:17 2023 -0400
+
+    Create Navbar
+
+[33mcommit 90d29b45a41e4e7ac93e4c31735f026da350b5ec[m
+Author: Sandra Sánchez <sansanvirom@gmail.com>
+Date:   Sat Feb 4 12:45:16 2023 -0400
+
+    Create index.js and styles.css
+
+[33mcommit 88eed5433ec9862176d5bde73d96ef1d5cc3a510[m
+Author: Sandra Sánchez <sansanvirom@gmail.com>
+Date:   Sat Feb 4 12:39:34 2023 -0400
+
+    Create index.html
