@@ -54,7 +54,6 @@ ul {
 
 
 
-
 .controles{ 
   display: flex;
   justify-content: center;
@@ -249,3 +248,6 @@ body {margin:0;}
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.letraPequeña{
+  font-size: x-small;
+}
