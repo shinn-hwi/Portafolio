@@ -1,4 +1,4 @@
-body, html {height: 100%; background-color: #f8c8f3;}
+body, html {height: 100%}
 body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
   
   .content {
@@ -56,8 +56,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-
-}
-  
+}  
 
 
