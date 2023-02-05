@@ -131,3 +131,81 @@ html {
 }
 
 
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+  background-color: lightblue;
+}
+
+.fondoFormulario {
+  border-radius: 5px;
+  background-color: hsl(272, 68%, 34%);
+  padding: 20px;
+  color: azure;
+}
+
+.button2 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #b95fb0;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button2:hover {
+  background-color: lightblue;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+textarea:focus {
+  background-color: lightblue;
+}
+
+
+
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: hsl(272, 68%, 34%);
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #b95fb0;
+}
+
