@@ -157,14 +157,6 @@ if (c3 == "" || c3 == null) {
 }
 
 
-
-      
-
-    //if( !(/\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)/.test(c2)) ) {
-       // alert("Ingrese un correo electrónico válido.");
-       // return false;
-//}
-
 var regex = /^[a-zA-Z]+$/;
       if(!regex.test(c1)){
       	alert("Error. Los nombres no pueden tener números ni caracteres especiales.");

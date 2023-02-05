@@ -49,8 +49,9 @@ ul {
 #imagen {
     width: 100%;
     height: 650px;
-    background-size: cover;
+    background-size: 100% 100%;
 }
+
 
 
 
@@ -207,5 +208,44 @@ body {margin:0;}
 
 .icon-bar a:hover {
   background-color: #b95fb0;
+}
+
+
+
+
+.img {
+  float: right;
+  border-radius: 20%;
+  width: 40%;
+}
+
+.borde{
+  border: 10px solid #b95fb0;
+  padding: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.moradito {
+  color: rgb(141, 47, 133);
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rosita {
+  color: rgb(186, 51, 110);
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
