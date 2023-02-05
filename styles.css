@@ -251,3 +251,18 @@ body {margin:0;}
 .letraPequeña{
   font-size: x-small;
 }
+
+
+.myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.myBar {
+  width: 30%;
+  height: 30px;
+  background-color: #7d2097;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}

@@ -16,6 +16,8 @@ function navbarFunction() {
 
 
 window.onload = function () {
+  crearJson();
+
     // Variables
     const IMAGENES = [
         'img/imagen1.png',
@@ -180,5 +182,57 @@ var regex = /^[a-zA-Z]+$/;
 
 sección.style.display = "block";
   
+}
+
+
+
+
+
+function crearJson() {
+var xValues = [];
+var yValues = [];
+var barColors = [];
+const myJSON = '[{"aplicación":"Java", "porcentaje":65, "color":"red"},{"aplicación":"Css", "porcentaje":80, "color":"green"},{"aplicación":"Html", "porcentaje":75, "color":"blue"},{"aplicación":"JavaScript", "porcentaje":40, "color":"orange"}, {"aplicación":"Python", "porcentaje":70, "color":"brown"}]';
+
+const myObj = JSON.parse(myJSON);
+
+for (let i = 0; i < myObj.length; i++) {
+
+
+nap1 = document.getElementById('naplicación1');
+nap2 = document.getElementById('naplicación2');
+nap3 = document.getElementById('naplicación3');
+nap4 = document.getElementById('naplicación4');
+nap5 = document.getElementById('naplicación5');
+
+ap1 = document.getElementById('myBar1');
+ap2 = document.getElementById('myBar2');
+ap3 = document.getElementById('myBar3');
+ap4 = document.getElementById('myBar4');
+ap5 = document.getElementById('myBar5');
+
+  xValues[i] = myObj[i].aplicación;
+  yValues[i] = myObj[i].porcentaje;
+  barColors[i] = myObj[i].color;
+
+  nap1.innerText = myObj[0].aplicación;
+nap2.innerText = myObj[1].aplicación;
+nap3.innerText = myObj[2].aplicación;
+nap4.innerText = myObj[3].aplicación;
+nap5.innerText = myObj[4].aplicación;
+
+ap1.innerText = myObj[0].porcentaje+"%";  
+ap2.innerText = myObj[1].porcentaje+"%";
+  ap3.innerText = myObj[2].porcentaje+"%";
+  ap4.innerText = myObj[3].porcentaje+"%";
+  ap5.innerText = myObj[4].porcentaje+"%";
+
+ap1.style.width = myObj[0].porcentaje+"%";
+ap2.style.width = myObj[1].porcentaje+"%";
+ap3.style.width = myObj[2].porcentaje+"%";
+ap4.style.width = myObj[3].porcentaje+"%";
+ap5.style.width = myObj[4].porcentaje+"%";
+
+}
 }
 
